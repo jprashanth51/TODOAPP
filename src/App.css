@@ -1,0 +1,101 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50vh; */
+}
+
+.input-container{
+  display: flex;
+
+}
+
+.center-container{ 
+  padding: 5px;
+  /* margin: 20px; */
+  height: 950px;
+  width: 500px;
+  /* background-color: #DCDCDC; */
+  background-image: linear-gradient(to bottom,#DCDCDC,#000000);
+
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  text-decoration-color: #B22222;
+  text-decoration-thickness: 3px;
+  /* font-weight: bold; */
+  font-size: large;
+}
+
+.app-heading{
+  padding: 8px;
+text-align: center;
+
+
+}
+
+input[type="text"], textarea {
+  background-color :#C0C0C0; 
+  padding: 5px;
+
+}
+
+.input-box-todo{
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  border: none;
+  outline: none;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-Bottom: 10px;
+  padding: 10px;
+  list-style: none;
+  font-size: 15px;
+  /* background-color: #708090; */
+  background-color: #808080;
+
+  border-radius: 3px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.item-Text {
+  flex: 1;
+  color:#F5F5F5;
+  /* font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode'; */
+  font-size: 25px;
+  font: bold;
+  /* font:  oblique normal lighter 20px monospace, garamond;   */
+
+
+}
+
+.sub-button{
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  border: none;
+  outline: none;
+}
+
+.delete-Button {
+  align-items: flex-end;
+  margin-left: 10px;
+  border-radius: 15px;
+  /* background-color: #F0F8FF; */
+  border: none;
+  padding: 10px;
+
+}
